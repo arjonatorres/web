@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+ <title>Login</title>
+ <link rel="shortcut icon" href="arjonatorres.ddns.net/php/mifavicon.png" type="image/x-icon">
+ <link rel=StyleSheet href="estilo.css" type="text/css">
+ <meta charset = "utf-8">
+</head>
+
+<body>
+	<table class=menu border="0">
+	<tr class=menu>
+		<td class=menu align="center" width="100%"><b>Login</b>
+		<img class=menu style="padding-right:50px;" align="right" id="boton_refresh" width="100px" src="imagenes/vacio-icon.png">
+		<img class=menu style="padding-left:50px;" align="left" width="100px" src="imagenes/imperihome-icon.png">
+		</td>
+	</tr>
+	</table>
+<table class="boton" cellspacing="40" border="0" >
+	<tr class="boton">
+	<td class="boton">
+		<form action="http://localhost:8000" method="post" >
+			<table width="90%" style="margin: 50px auto">
+			<tr><td align="left" style="padding:20px"><label><font size="7" >Nombre Usuario:</td></tr>
+			<tr><td style="padding:20px"><input name="nusername" style="width:100%;height:80px; font-size:40px" type="text" id="username" required></font></label></td></tr>
+
+			<tr><td align="left" style="padding:20px"><label><font size="7">Password:</td></tr>
+			<tr><td style="padding:20px"><input name="npassword" style="width:100%;height:80px; font-size:40px" type="password" id="password" required></label></td></tr>
+			<tr><td align="left" style="padding:20px"><label><font size="7"><br></td></tr>
+			<tr><td style="padding:20px"><input type="submit" style="width:100%;height:80px; font-size:40px" name="Submit" value="LOGIN"></td></tr>
+			</table>
+		</form>
+	</td>
+	</tr >
+
+ </body>
+</html>
