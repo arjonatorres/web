@@ -19,6 +19,7 @@
                 <th>Sinopsis</th>
                 <th>Duración</th>
                 <th>Género</th>
+                <th>Operaciones</th>
             </thead>
             <tbody>
                 <?php foreach ($query as $fila): ?>
@@ -29,6 +30,11 @@
                         <td><?= $fila['sinopsis'] ?></td>
                         <td><?= $fila['duracion'] ?></td>
                         <td><?= $fila['genero_id'] ?></td>
+                        <td>
+                            <a href="borrar.php?id=<?= $fila['id'] ?>">
+                                Borrar
+                            </a>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
